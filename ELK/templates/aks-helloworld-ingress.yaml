@@ -13,13 +13,13 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: aks-helloworld-root-{{.Release.Name}}
+          serviceName: aks-helloworld-1-{{.Release.Name}}
           servicePort: 80
       - path: /elastic
         backend:
-          serviceName: {{.Release.Name}}-elasticsearch-client
+          serviceName: rs-search-logging-elasticsearch-client
           servicePort: 9200
       - path: /kibana
         backend:
-          serviceName: {{.Release.Name}}-kibana
+          serviceName: rs-search-logging-kibana
           servicePort: 5601
