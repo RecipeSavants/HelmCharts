@@ -38,4 +38,4 @@ tolerations: []
 nodeSelector: {}
 
 podAnnotations: {}
-replicaCount: 1
+replicaCount: 2
