@@ -1,8 +1,0 @@
-image:
-  repository: "quay.io/fluent/fluentd-kubernetes-daemonset"
-  tag: "latest"
-  pullPolicy: "IfNotPresent"
-
-elaticsearch:
-   host: "elasticsearch.default"
-   port: 9200
